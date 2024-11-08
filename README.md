@@ -49,8 +49,3 @@ You can click the Preview link to take a look at your changes.
 ![](https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight)
 
 
-import React from "react";
-
-export default function Animation() {
-  return <div></div>;
-}
