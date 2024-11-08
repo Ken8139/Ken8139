@@ -5,14 +5,7 @@
 - 📫 How to reach me ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
-def quicksort(array):
-    if len(array) < 2:
-        return array
-    pivot = array[0]
-    less = [i for i in array[1:] if i <= pivot]
-    greater = [i for i in array[1:] if i > pivot]
-    return quicksort(less) + [pivot] + quicksort(greater)
-<!---
+
 Ken8139/Ken8139 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
